@@ -1,11 +1,14 @@
 Package: ratools
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Useful R functions for research assistants
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: César Landín
+Maintainer: César Landín <cesar.landin@kellogg.northwestern.edu>
+Description: Functions for generating publication quality tables and graphs, and organizing project data.
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    here,
+    stringr
+RoxygenNote: 7.2.1
